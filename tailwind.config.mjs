@@ -8,10 +8,14 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        // background: "var(--background)",
+        // foreground: "var(--foreground)",
+        primary: '#007A00',
+        secondary: '#00CC00',
+        light: '#ffffff',
+        dark: '#252323'
       },
     },
   },
-  plugins: [],
+  plugins: [require('daisyui')],
 };
