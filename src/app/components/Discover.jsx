@@ -2,7 +2,7 @@ import React from 'react';
 
 const Discover = () => {
     return (
-        <div className='container mx-auto px-6 py-12 md:py-16 flex flex-col-reverse md:flex-row gap-4 bg-gray-200'>
+        <div className='container mx-auto px-6 py-12 md:py-16 flex flex-col-reverse md:flex-row gap-4 bg-green-100'>
             <div className='w-full md:w-1/2 space-y-2 place-content-center'>
                 <h2 className='text-2xl md:text-3xl font-bold'>Make your golden memories</h2>
                 <p className='text-lg font-bold '>A refined luxury hotel in the famed oasis of city</p>

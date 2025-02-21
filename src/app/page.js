@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import Banner from "./components/Banner";
 import Rooms from "./components/Rooms";
 import Discover from "./components/Discover";
+import Gallery from "./components/Gallery";
 
 export default function Home() {
   return (
@@ -10,7 +11,7 @@ export default function Home() {
   <Banner></Banner>
   <Discover></Discover>
   <Rooms></Rooms>
-
+  <Gallery></Gallery>
  </>
 
   );
